@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <form action="#">
+    <!-- value的值可以随着表单进行提交，但是placeholder不可以随着表单默认提交 -->
+    <input type="tel" name="tel" pattern="[0-9]{11}" autofocus="autofocus" value="请输入电话号码" required="required">
+    <!-- @ -->
+    <input type="email" name="email" placeholder="请输入邮箱">
+    <!-- http:// -->
+    <!-- https:// -->
+    <input type="url" name="url" placeholder="地址">
+    <input type="color" name="color">
+    <input type="number" name="number" pattern="[0-9]{3}" placeholder="数据">
+    <input type="range" name="range">
+    <input type="search" name="search" results="s" placeholder="搜索">
+    <input type="submit" value="提交请求">
+  </form>
+
+
+  
+</body>
+</html>

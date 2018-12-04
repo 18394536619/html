@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <form action="#">
+    <!-- 进度条 -->
+    <progress style="height:5px;" max="100" value="0" id="pro"></progress>
+    <!-- output输出 -->
+  </form>
+  <script type="text/javascript">
+    // 当页面加载成功之后执行function中的代码
+    window.onload = function(){
+      // 每过100hs，执行function中的代码
+      setInterval(function(){
+        if(document.getElementById("pro").value<100){
+          // 获取progross标签的value值
+          document.getElementById("pro").value++ ;
+        }else{
+          document.getElementById("pro").value = 0
+        }
+      },100)
+    }
+  </script>
+</body>
+</html>

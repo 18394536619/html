@@ -1,0 +1,7 @@
+1.作业
+  apache服务器可以成功开启
+  ipconfig   查看自己的主机名（IP）
+  ping 172.16.22.29
+  htdocs 放上自己的作业
+  172.16.22.29:8087/homework/main.html
+2.完善昨天的表单作业

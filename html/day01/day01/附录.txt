@@ -1,0 +1,10 @@
+sublime快捷键
+  !+tab  快速生成文档
+  html:5+tab 快速生成文档
+  tab  缩进
+  标签名字+tab  快速生成标签
+  ctrl+c/ctrl+v 快速复制一行
+  ctrl+w   关闭标签页
+  ctrl+enter 快速编辑下一行
+  ul>li*4+tab  快速生成相同代码
+  tr*3>td*5+tab 快速生成相同代码

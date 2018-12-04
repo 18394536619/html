@@ -1,0 +1,252 @@
+1. web体系结构
+	前端开发基础
+		html
+		css
+		js
+	----------
+		jquery 	js框架
+		vue 		js框架
+		ajax 		js http应用
+		h5 api 	js框架
+		bs 			HTML/css
+		elementui 	html/css
+		axios 	ajax
+	1. 网页重构接口
+		1) axure/ps
+			产品结构
+				box 	盒子
+				标题 	
+				表单
+				表格
+				...
+			设计
+			测量
+			切图
+			取色
+
+		2) html /css
+		3) 项目
+			重构 	简历
+				1. jd
+					首页
+					产品
+					登录
+				2. 网易严选
+	2. js基础
+		linux
+			node 
+			es5	（标准）
+				firefox 	js解析器
+				chrome 		js解析器
+				操作系统  	node	
+			dom
+			bom	
+		jquery
+		bootstrap
+
+2. html复习
+	html 超文本标记语言
+	html 
+	h 超级
+		字符，图片，视频，音频，canvs,a
+	t	文本
+		.txt 	.java .html .js
+	m 标记
+		<html>
+			<body>
+				<h2>hello world</h2>
+			</body>
+		<html>
+	l 语言
+		解析型语言
+			index.html
+			html解析器
+			从上往下解析
+			css
+			js
+		编译型语言
+			Hello.java
+			->
+			Hello.class
+			->
+			JVM
+	语法
+		单标签
+			<meta>
+			<img src="" alt="">
+
+		成对标签
+			<开始标签>内容/子元素</结束标签>
+			<h2>hello world</h2>
+			<h2><span>hello</span></h2>
+		注释
+			<!-- 注释 -->
+		属性
+			<h2 ></h2>
+			属性位于开始标签内，标签名后
+			1) 核心属性
+				绝大多数元素都具有的属性
+				id 			唯一标识 
+				class 	类
+				title 	提示
+				style 	样式
+			2) 特有属性
+				<a href=""></a>
+				<img src="" alt="">
+			3) 拓展属性(了解)
+				<ul>
+					<li></li>
+					<li data-path=""></li>
+				</ul>
+学什么？
+	1. 标签作用
+		h2 	二级标题
+	2. 标签特有属性
+	3. 标签样式
+		上下外边距
+		字体（大小，粗细）
+
+3. 块级元素 （结构性标签）
+	特点：
+		1) 独占一行空间
+		2）宽度默认为100%
+		3) 高度由内容决定
+		4) 可以指定宽度和高度
+
+		div 	无意义的块级元素 
+		body 	外边距
+		h1~h3 标题，上下外边距，font-size font-weight
+		p 		段落，上下外边距
+		ul 		无序列表，上下外边距，左内边距，列表样式  
+			li 
+		ol 		有序列表，上下外边距，左内边距，列表样式  
+			li
+		dl		定义列表，上下外边距
+			dt
+			dd 	左外边距
+
+4. 行内元素
+	特点：
+		1) 不独占一行空间，与其他行内元素共享一行空间
+		2) 不可以指定宽高
+		3) 宽高由内容决定
+	元素
+		span	无意义
+		a 		超链接，color text-decoration
+			href	
+				1) url 	统一资源定位符
+					http://ip:port/path
+					http 	协议
+					ip		定位网络中唯一一台主机
+					port	apache 80 mysql 3306
+								tomcat 8080 ftp 21
+								ssh 22
+								...
+					path
+						htdocs
+							/app01/index.html
+						http://ip:80/app01/index.html
+
+					地址
+						逻辑地址 	ip		路由
+							局域网ip 	
+							公网ip			阿里云
+
+						物理地址 	mac 	网卡
+						xxx,i
+				2) 绝对地址
+					以/作为路径的开始
+					<a href="/index.html"></a>
+
+					/ linux 系统根目录
+					/ apache的根目录
+				3) 相对路径
+					相对于当前文件所在的路径
+				4) mailto:licy@briup.com
+				5) 锚点
+			target
+		img 	图片
+			<img src="" alt="">
+				src 	图片地址
+				alt 	图片找不到的时候的文字替换
+				width
+		装饰类标签(h5淘汰)
+			<strong></strong>
+			<b></b>
+			<em></em>
+			<i></i>
+			<del></del>
+			<sub></sub>
+			<sup></sup>
+			..
+
+5. 表格（功能）
+
+	1) 默认宽度高度都由内容决定
+	2) 嵌套规则 
+		td可以嵌套任何元素
+	3) 属性(了解即可，都可以通过css来实现)
+		table （border,cellspacing ,width,text-align）
+		thead ,tbody ,tfoot (text-align)
+		tr(text-align)
+		td(colspan rowspan)
+	table
+		caption
+		thead
+			tr
+				th/td
+		tbody
+			tr 
+				td/th
+		tfoot
+			tr 
+				td
+
+6. 表单
+
+7. css (选择器 font)
+
+
+
+
+
+-------------------
+1. axure
+2.1 根据axure前端开发
+	重构
+	动态化（）
+		模型驱动框架
+			jquery
+		数据驱动框架(mvvm框架)
+			vue / angular / react
+	数据对接
+		ajax
+2.2 根据axure后台开发
+
+	化妆
+		人体构造学 	黄金比例（html）
+		彩妆 			css
+			唇彩 		font-*
+			眉笔			list-style-*
+			隔离 		border-*
+			粉底			margin-*
+		才艺（模特）
+			css  		animation
+			js 			js动画
+
+学习方法
+	1. 主讲 听！
+	2. 辅讲 写！
+			案例
+			作业（项目）
+			辅导
+	3. 晚上 
+		归纳梳理总结
+		思维导图（百度脑图）
+		
+
+
+
+
+
+

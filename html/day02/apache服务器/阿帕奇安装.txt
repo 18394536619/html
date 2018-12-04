@@ -1,0 +1,6 @@
+免安装阿帕奇服务使用
+conf->httpd.conf配置文件修改
+	1.38行，Define SRVROOT "H:/Apache-httpd-2.4.17-x64/Apache24"
+	2.80行，Listen 8087
+	3.221行，ServerName localhost:8087
+bin
